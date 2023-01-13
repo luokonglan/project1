@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+body{
+    background: url("yuanshen.jpg") no-repeat center center fixed;width: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+   
+}
+.c{
+    opacity: 0.9;
+}
+.c1{
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    display: block;
+}
+.c2{
+    margin: 4px auto;
+    width: 100%;
+    font-size: 28px;
+    background-color: darkgray;
+    opacity: 0.7;
+    z-index: 5;
+    position: relative;
+}
+.c2 ul{
+    width: 600px;
+    height: 35px;
+    padding: 0 0 0 200px;
+}
+.c2 ul li{
+   float: left;
+    list-style: none;
+    text-align: center;
+    width: 120px;
+    position: relative;
+}
+.c2 ul li:hover ul{
+    display: block;
+    color: tomato;
+}
+.c2 ul li ul{
+    width: 120px;
+    height: 140px;
+    display: none;
+    opacity: 0.9;
+    padding: 0 ;
+    position: absolute;
+    background-color: rgba(61, 144, 221, 0.986);
+   
+}
+.c2 ul li ul li{
+    list-style: none;
+    width: 120px;
+    z-index: 100;
+    padding: 0;
+    }
+    .c2 ul li ul li:hover{
+        background-color: chocolate;
+    }
+main{
+     opacity: 0.9;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+#world,
+#team{
+    font-size: 28px;
+    background-color: slategray;
+    opacity: 0.9;
+    text-align: center;
+    color: aqua;
+}
+.c5,.c6,.c7,.c8{
+    font-size: 28px;
+    text-align: center;
+    background-color: #888888;
+    opacity: 0.7;
+}
+.mod{
+    font-size: 20px;
+    text-align: center;
+    color: darkturquoise ;
+    opacity: 1;
+    width: 900px;
+    margin: auto;
+}
+.liy{
+    font-size: 20px;
+    text-align: center;
+    color: burlywood ;
+    opacity: 1;
+    width: 900px;
+    margin: auto;
+}
+.doq{
+    font-size: 20px;
+    text-align: center;
+    color: blueviolet ;
+    opacity: 1;
+    width: 900px;
+    margin: auto;
+}
+.kim{
+    font-size: 20px;
+    text-align: center;
+    color: chartreuse ;
+    opacity: 1;
+    width: 900px;
+    margin: auto;
+}
+div img{
+    box-shadow: 10px 6px 10px 5px #888888;
+    width: 400px;height: 240px;
+}
+
+table,tr,th,td{
+    font-size: 16px;
+    border:1px solid   ;
+    border-collapse: collapse;}
+table{
+    text-align: center;
+    width:70.5%;
+    margin: auto;
+}
+tr,th,td{
+    opacity: 0.95;
+    font-size: 20px;
+}
+td{
+    padding-bottom: 10px;
+}
+table img{
+    box-shadow: 10px 6px 10px 5px #888888;
+    opacity: 1;
+}
+
+tr:nth-child(1){
+    background-color:aliceblue;
+}
+tr:nth-child(2){
+    background-color:aquamarine;
+}
+tr:nth-child(3){
+    background-color:blueviolet;
+}
+.sidenav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index:160;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 38, 38,0.8);
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block;
+  }
+  footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    font-size: 20px;
+  }
+  
